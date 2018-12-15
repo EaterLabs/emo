@@ -1,0 +1,8 @@
+{
+  "name": "@eater/emo",
+  "version": "1.0.0",
+  "description": "A cli frontend for @eater/emo-sdk",
+  "main": "index.js",
+  "author": "eater <=@eater.me>",
+  "license": "MIT"
+}

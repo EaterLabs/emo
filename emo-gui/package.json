@@ -1,0 +1,8 @@
+{
+  "name": "@eater/emo-gui",
+  "version": "1.0.0",
+  "description": "A GUI for @eater/emo-sdk",
+  "main": "index.js",
+  "author": "eater <=@eater.me>",
+  "license": "MIT"
+}

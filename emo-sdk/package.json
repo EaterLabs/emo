@@ -1,0 +1,8 @@
+{
+  "name": "@eater/emo-sdk",
+  "version": "1.0.0",
+  "description": "Eater's Minecraft Organizer, an centralized sdk, tying GUI and CLI together",
+  "main": "index.js",
+  "author": "eater <=@eater.me>",
+  "license": "MIT"
+}
