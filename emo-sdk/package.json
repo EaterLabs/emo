@@ -2,7 +2,22 @@
   "name": "@eater/emo-sdk",
   "version": "1.0.0",
   "description": "Eater's Minecraft Organizer, an centralized sdk, tying GUI and CLI together",
-  "main": "index.js",
+  "main": "lib/emosdk.js",
   "author": "eater <=@eater.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@eater/asbest": "^1.0.0",
+    "leveldown": "^4.0.1",
+    "levelup": "^3.1.1",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^2.3.0",
+    "shell-escape": "^0.2.0",
+    "unzipper": "^0.9.7"
+  },
+  "devDependencies": {
+    "flow-remove-types": "^1.2.3"
+  },
+  "scripts": {
+    "build": "yarn exec flow-remove-types -- --out-dir lib/ src/"
+  }
 }

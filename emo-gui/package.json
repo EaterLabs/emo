@@ -4,5 +4,8 @@
   "description": "A GUI for @eater/emo-sdk",
   "main": "index.js",
   "author": "eater <=@eater.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "echo 'No build script yet.'"
+  }
 }

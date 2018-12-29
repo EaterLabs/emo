@@ -4,5 +4,19 @@
   "description": "A cli frontend for @eater/emo-sdk",
   "main": "index.js",
   "author": "eater <=@eater.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.1"
+  },
+  "devDependencies": {
+    "flow-remove-types": "^1.2.3"
+  },
+  "bin": {
+    "emo": "bin/emo"
+  },
+  "scripts": {
+    "build": "yarn exec flow-remove-types -- --out-dir lib/ src/"
+  }
 }

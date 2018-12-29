@@ -3,5 +3,8 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.6.0"
+  },
+  "scripts": {
+    "build": "yarn exec lerna -- exec yarn build"
   }
 }

@@ -1,6 +1,6 @@
 {
   "packages": [
-    "emo-cli",
+    "emo",
     "emo-gui",
     "emo-sdk"
   ],

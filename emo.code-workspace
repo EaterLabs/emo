@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "emo CLI tool",
+			"path": "emo"
+		},
+		{
+			"name": "emo SDK",
+			"path": "emo-sdk"
+		},
+		{
+			"name": "emo GUI",
+			"path": "emo-gui"
+		},
+		{
+			"name": "emo workspace",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/*.js.map": true
+		}
+	}
+}
