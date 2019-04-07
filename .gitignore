@@ -1,5 +1,4 @@
 node_modules
 .idea
-/emo/src/*.js
 */lib
 yarn-error.log
